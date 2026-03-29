@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Human",
+    "description": "Versatile and ambitious, humans adapt easily to any role.",
+    "bonuses": {
+      "strength": 1,
+      "dexterity": 1,
+      "intelligence": 1,
+      "charisma": 1
+    }
+  },
+  {
+    "id": 2,
+    "name": "Elf",
+    "description": "Graceful and magical beings with heightened senses.",
+    "bonuses": {
+      "dexterity": 2,
+      "intelligence": 1
+    }
+  },
+  {
+    "id": 3,
+    "name": "Dwarf",
+    "description": "Stout and resilient warriors known for their endurance.",
+    "bonuses": {
+      "constitution": 2,
+      "strength": 1
+    }
+  },
+  {
+    "id": 4,
+    "name": "Halfling",
+    "description": "Small but agile, lucky and stealthy.",
+    "bonuses": {
+      "dexterity": 2,
+      "charisma": 1
+    }
+  },
+  {
+    "id": 5,
+    "name": "Gnome",
+    "description": "Curious and intelligent inventors and illusionists.",
+    "bonuses": {
+      "intelligence": 2,
+      "dexterity": 1
+    }
+  },
+  {
+    "id": 6,
+    "name": "Tiefling",
+    "description": "Descendants of infernal beings, possessing dark charisma.",
+    "bonuses": {
+      "charisma": 2,
+      "intelligence": 1
+    }
+  },
+  {
+    "id": 7,
+    "name": "Half-Elf",
+    "description": "A blend of human adaptability and elven grace.",
+    "bonuses": {
+      "charisma": 2,
+      "dexterity": 1
+    }
+  },
+  {
+    "id": 8,
+    "name": "Half-Orc",
+    "description": "Powerful and intimidating warriors with great strength.",
+    "bonuses": {
+      "strength": 2,
+      "constitution": 1
+    }
+  },
+  {
+    "id": 9,
+    "name": "Dragonborn",
+    "description": "Draconic humanoids with elemental breath abilities.",
+    "bonuses": {
+      "strength": 2,
+      "charisma": 1
+    }
+  },
+  {
+    "id": 10,
+    "name": "Githyanki",
+    "description": "Fierce warriors from the Astral Plane.",
+    "bonuses": {
+      "strength": 2,
+      "intelligence": 1
+    }
+  }
+]

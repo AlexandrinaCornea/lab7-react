@@ -1,0 +1,48 @@
+.step-section {
+    margin-bottom: 32px;
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.card-option {
+    display: block;
+    cursor: pointer;
+}
+
+.card-option input {
+    display: none;
+}
+
+.card-content {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 16px;
+    background: white;
+    transition: 0.2s ease;
+}
+
+.card-option input:checked+.card-content {
+    border-color: #7b2cbf;
+    background: #f3e8ff;
+}
+
+.card-content h3 {
+    margin: 0 0 8px;
+}
+
+.card-content p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Noble",
+    "description": "Born into wealth and privilege, you are used to power and influence."
+  },
+  {
+    "id": 2,
+    "name": "Soldier",
+    "description": "Trained in the art of war, you have experience in combat and discipline."
+  },
+  {
+    "id": 3,
+    "name": "Outlander",
+    "description": "Raised in the wild, you are skilled in survival and exploration."
+  },
+  {
+    "id": 4,
+    "name": "Scholar",
+    "description": "A life of study and knowledge has made you wise and intelligent."
+  },
+  {
+    "id": 5,
+    "name": "Criminal",
+    "description": "You have lived outside the law, relying on stealth and cunning."
+  },
+  {
+    "id": 6,
+    "name": "Acolyte",
+    "description": "You have spent your life serving a deity and learning sacred rites."
+  },
+  {
+    "id": 7,
+    "name": "Entertainer",
+    "description": "A performer at heart, you thrive on captivating an audience."
+  },
+  {
+    "id": 8,
+    "name": "Merchant",
+    "description": "You understand trade, negotiation, and the value of gold."
+  },
+  {
+    "id": 9,
+    "name": "Hermit",
+    "description": "You lived in isolation, gaining unique insights about the world."
+  },
+  {
+    "id": 10,
+    "name": "Hunter",
+    "description": "You track and hunt creatures, relying on precision and patience."
+  }
+]

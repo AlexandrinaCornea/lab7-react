@@ -3,15 +3,18 @@
 ## Cerințe Generale
 
 ### Configurare Proiect
+
 - Creează un proiect `React` folosind `Vite`.
 - Folosește fișiere `.json` pentru a stoca datele statice necesare formularului (e.g., opțiuni pentru select-uri, liste de elemente pentru checkbox-uri, configurații de culori/teme etc.).
 
 ### Tematica
+
 - **Fiecare student își alege propria tematică** pentru formularul multi-step. Tematica trebuie să fie unică și suficient de complexă pentru a acoperi toate cerințele tehnice de mai jos.
 - Exemple orientative: configurator de vehicul, planificator de călătorie, formular de înscriere la eveniment, constructor de profil de personaj, formular de comandă restaurant, aplicație de adopție animale, configurator PC, planificator de fitness etc.
 - **Nu se acceptă** tematica identică cu exemplul demonstrativ prezentat mai jos.
 
 ### Interfață Utilizator (UI) & Experiență
+
 - Stilizarea se poate face cu CSS pur / CSS Modules sau biblioteci externe (e.g., Tailwind, Material-UI).
 - Interfața trebuie să fie curată, funcțională și plăcută vizual.
 
@@ -32,15 +35,15 @@
 
 Formularul trebuie să utilizeze **cel puțin 5 tipuri diferite** de input-uri din lista de mai jos:
 
-| Tip | Exemple |
-|-----|---------|
-| `text` | Nume, email, adresă |
-| `number` / `range` | Cantitate, buget, vârstă |
-| `select` | Categorie, țară, tip |
-| `radio` | Alegere unică (gen, plan, culoare) |
-| `checkbox` | Alegeri multiple (opțiuni, preferințe, termeni) |
-| `textarea` | Comentarii, descriere, note |
-| `date` | Data nașterii, data evenimentului |
+| Tip                | Exemple                                         |
+| ------------------ | ----------------------------------------------- |
+| `text`             | Nume, email, adresă                             |
+| `number` / `range` | Cantitate, buget, vârstă                        |
+| `select`           | Categorie, țară, tip                            |
+| `radio`            | Alegere unică (gen, plan, culoare)              |
+| `checkbox`         | Alegeri multiple (opțiuni, preferințe, termeni) |
+| `textarea`         | Comentarii, descriere, note                     |
+| `date`             | Data nașterii, data evenimentului               |
 
 - Opțiunile pentru `select`, `radio` și `checkbox` trebuie **încărcate din fișiere `.json`**.
 
@@ -72,14 +75,14 @@ Formularul trebuie să utilizeze **cel puțin 5 tipuri diferite** de input-uri d
 
 - **Acțiuni necesare (minim):**
 
-| Acțiune | Descriere |
-|---------|-----------|
-| `SET_FIELD` | Actualizează valoarea unui câmp |
-| `TOUCH_FIELD` | Marchează un câmp ca `touched` |
-| `VALIDATE_STEP` | Marchează toate câmpurile din pasul curent ca `touched` |
-| `SET_STEP` | Navighează la un alt pas (cu validare la navigare înainte) |
-| `RESET` | Resetează formularul la starea inițială |
-| + altele | Acțiuni specifice temei alese (e.g., adăugare/ștergere element dintr-o listă, toggle opțiune etc.) |
+| Acțiune         | Descriere                                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| `SET_FIELD`     | Actualizează valoarea unui câmp                                                                    |
+| `TOUCH_FIELD`   | Marchează un câmp ca `touched`                                                                     |
+| `VALIDATE_STEP` | Marchează toate câmpurile din pasul curent ca `touched`                                            |
+| `SET_STEP`      | Navighează la un alt pas (cu validare la navigare înainte)                                         |
+| `RESET`         | Resetează formularul la starea inițială                                                            |
+| + altele        | Acțiuni specifice temei alese (e.g., adăugare/ștergere element dintr-o listă, toggle opțiune etc.) |
 
 - Toate actualizările de state trebuie să fie **imutabile** (spread operator, `.map()`, `.filter()` — fără mutații directe).
 
@@ -100,18 +103,18 @@ Formularul trebuie să utilizeze **cel puțin 5 tipuri diferite** de input-uri d
 
 ## Barem de notare
 
-| Punctaj | Sarcina |
-|---------|---------|
-| 1 | Crearea corectă a proiectului (Vite + React) și structura fișierelor |
-| 1 | Utilizarea fișierelor `.json` pentru date statice (opțiuni select/radio/checkbox) |
-| 1 | UI plăcut și funcțional (stilizare coerentă, responsive minimal) |
-| 1 | Utilizarea a minim 5 tipuri diferite de input-uri |
-| 1 | Implementarea corectă a Context API + useReducer (state + dispatch separate, custom hooks) |
-| 1 | Reducer cu acțiuni imutabile și bine structurate (minim 6 acțiuni) |
-| 1 | Sistem de validare cu `errors` derivate + `touched` (afișare condiționată a erorilor) |
-| 1 | Navigare multi-step cu validare (stepper, blocare la erori, navigare liberă înapoi) |
-| 1 | Vizualizare live (preview lateral actualizat în timp real) |
-| 1 | Pas de review + submit cu confirmare |
+| Punctaj | Sarcina                                                                                    |
+| ------- | ------------------------------------------------------------------------------------------ |
+| 1       | Crearea corectă a proiectului (Vite + React) și structura fișierelor                       |
+| 1       | Utilizarea fișierelor `.json` pentru date statice (opțiuni select/radio/checkbox)          |
+| 1       | UI plăcut și funcțional (stilizare coerentă, responsive minimal)                           |
+| 1       | Utilizarea a minim 5 tipuri diferite de input-uri                                          |
+| 1       | Implementarea corectă a Context API + useReducer (state + dispatch separate, custom hooks) |
+| 1       | Reducer cu acțiuni imutabile și bine structurate (minim 6 acțiuni)                         |
+| 1       | Sistem de validare cu `errors` derivate + `touched` (afișare condiționată a erorilor)      |
+| 1       | Navigare multi-step cu validare (stepper, blocare la erori, navigare liberă înapoi)        |
+| 1       | Vizualizare live (preview lateral actualizat în timp real)                                 |
+| 1       | Pas de review + submit cu confirmare                                                       |
 
 ### Link de exemplu de soluție: [Party Roster Builder](https://lab7-react-example.vercel.app/)
 

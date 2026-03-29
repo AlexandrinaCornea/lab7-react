@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Warrior",
+    "description": "A strong melee fighter specializing in weapons and heavy armor.",
+    "primaryStat": "strength"
+  },
+  {
+    "id": 2,
+    "name": "Mage",
+    "description": "A master of arcane magic who uses spells to defeat enemies.",
+    "primaryStat": "intelligence"
+  },
+  {
+    "id": 3,
+    "name": "Rogue",
+    "description": "A stealthy and agile character who excels in critical strikes.",
+    "primaryStat": "dexterity"
+  },
+  {
+    "id": 4,
+    "name": "Cleric",
+    "description": "A divine spellcaster who heals allies and fights undead.",
+    "primaryStat": "wisdom"
+  },
+  {
+    "id": 5,
+    "name": "Paladin",
+    "description": "A holy warrior combining combat skills with divine magic.",
+    "primaryStat": "charisma"
+  },
+  {
+    "id": 6,
+    "name": "Ranger",
+    "description": "A skilled hunter who uses ranged weapons and nature magic.",
+    "primaryStat": "dexterity"
+  },
+  {
+    "id": 7,
+    "name": "Warlock",
+    "description": "A spellcaster who gains power through a pact with a mysterious entity.",
+    "primaryStat": "charisma"
+  },
+  {
+    "id": 8,
+    "name": "Barbarian",
+    "description": "A fierce warrior driven by rage and raw physical power.",
+    "primaryStat": "strength"
+  },
+  {
+    "id": 9,
+    "name": "Bard",
+    "description": "A charismatic performer who uses music and magic to support allies.",
+    "primaryStat": "charisma"
+  },
+  {
+    "id": 10,
+    "name": "Monk",
+    "description": "A disciplined fighter who uses martial arts and inner energy.",
+    "primaryStat": "dexterity"
+  }
+]
