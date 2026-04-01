@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Brave",
+    "description": "You face danger without fear and inspire others with your courage."
+  },
+  {
+    "id": 2,
+    "name": "Cunning",
+    "description": "You rely on intelligence and trickery to overcome challenges."
+  },
+  {
+    "id": 3,
+    "name": "Loyal",
+    "description": "You stand by your allies no matter the situation."
+  },
+  {
+    "id": 4,
+    "name": "Greedy",
+    "description": "You are driven by wealth and the desire for more."
+  },
+  {
+    "id": 5,
+    "name": "Wise",
+    "description": "Your decisions are guided by knowledge and experience."
+  },
+  {
+    "id": 6,
+    "name": "Impulsive",
+    "description": "You act quickly, sometimes without thinking of consequences."
+  },
+  {
+    "id": 7,
+    "name": "Honorable",
+    "description": "You follow a strict moral code and value integrity."
+  },
+  {
+    "id": 8,
+    "name": "Reckless",
+    "description": "You take risks without worrying about the outcome."
+  },
+  {
+    "id": 9,
+    "name": "Charming",
+    "description": "Your personality easily attracts and influences others."
+  },
+  {
+    "id": 10,
+    "name": "Stoic",
+    "description": "You remain calm and composed in all situations."
+  }
+]

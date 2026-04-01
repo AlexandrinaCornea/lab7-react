@@ -51,13 +51,19 @@ export function validateCharacter(formData) {
 
   if (!formData.backstory.trim()) {
     errors.backstory = "Backstory is required.";
-  } else if (formData.backstory.trim().length < 20) {
-    errors.backstory = "Backstory must be at least 20 characters.";
+  } else if (formData.backstory.trim().length < 100) {
+    errors.backstory = "Backstory must be at least 100 characters.";
   }
 
   if (!formData.acceptDestiny) {
     errors.acceptDestiny = "You must accept your destiny.";
   }
+
+  formData.stats.forEach((stat) => {
+    if (stat.value < 8 || stat.value > 15) {
+      errors[`stats.${stat.name}`] = `${stat.name} must be between 8 and 15.`;
+    }
+  });
 
   return errors;
 }

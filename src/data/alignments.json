@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Lawful Good",
+    "description": "Acts with honor and compassion, following rules to do what is right."
+  },
+  {
+    "id": 2,
+    "name": "Neutral Good",
+    "description": "Does the best they can to help others, without strict adherence to rules."
+  },
+  {
+    "id": 3,
+    "name": "Chaotic Good",
+    "description": "Follows their heart, valuing freedom and kindness over laws."
+  },
+  {
+    "id": 4,
+    "name": "Lawful Neutral",
+    "description": "Follows rules and order above all else, regardless of morality."
+  },
+  {
+    "id": 5,
+    "name": "True Neutral",
+    "description": "Maintains balance, avoiding extremes of good or evil."
+  },
+  {
+    "id": 6,
+    "name": "Chaotic Neutral",
+    "description": "Values personal freedom and unpredictability above all."
+  },
+  {
+    "id": 7,
+    "name": "Lawful Evil",
+    "description": "Uses rules and structure to achieve selfish or harmful goals."
+  },
+  {
+    "id": 8,
+    "name": "Neutral Evil",
+    "description": "Acts in self-interest, without concern for order or chaos."
+  },
+  {
+    "id": 9,
+    "name": "Chaotic Evil",
+    "description": "Driven by destruction and chaos, with no regard for others."
+  }
+]

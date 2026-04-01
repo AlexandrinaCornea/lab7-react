@@ -1,12 +1,12 @@
 import "./App.css";
-import { BuildStep } from "./components/steps/BuildStep";
-import { IdentityStep } from "./components/steps/IdentityStep";
+import { CharacterForm } from "./components/form/CharacterForm";
+import { CharacterPreview } from "./components/preview/CharacterPreview";
 import { CharacterProvider } from "./context/CharacterContext";
 
 function App() {
   return (
     <CharacterProvider>
-      <BuildStep />
+      <CharacterForm />
     </CharacterProvider>
   );
 }

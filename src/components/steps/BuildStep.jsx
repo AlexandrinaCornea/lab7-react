@@ -3,8 +3,7 @@ import {
   useCharacterDispatch,
 } from "@context/CharacterContext";
 import style from "./style.module.css";
-
-const difficultyOptions = ["Explorer", "Balanced", "Tactician"];
+import difficultyOptions from "@data/difficulty.json";
 
 export const BuildStep = () => {
   const { formData, touched, errors } = useCharacterState();
@@ -106,6 +105,40 @@ export const BuildStep = () => {
       {touched.difficulty && errors.difficulty && (
         <p className={style["error-text"]}>{errors.difficulty}</p>
       )}
+
+      <div>
+        {formData.stats.map((stat) => (
+          <div key={stat.id}>
+            <p>
+              {stat.name}: {stat.value}
+            </p>
+
+            <button
+              type="button"
+              onClick={() => {
+                dispatch({ type: "TOUCH_FIELD", field: `stats.${stat.name}` });
+                dispatch({ type: "DECREASE_STAT", statName: stat.name });
+              }}
+            >
+              -
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                dispatch({ type: "TOUCH_FIELD", field: `stats.${stat.name}` });
+                dispatch({ type: "INCREASE_STAT", statName: stat.name });
+              }}
+            >
+              +
+            </button>
+            {touched[`stats.${stat.name}`] && errors[`stats.${stat.name}`] && (
+              <p className={style["error-text"]}>
+                {errors[`stats.${stat.name}`]}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
