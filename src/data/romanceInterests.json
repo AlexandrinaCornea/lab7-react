@@ -1,42 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Shadowheart",
-    "description": "A mysterious cleric of Shar with a guarded personality and hidden past."
+    "name": "Shadowheart"
   },
   {
     "id": 2,
-    "name": "Astarion",
-    "description": "A charming and manipulative vampire spawn with a dark sense of humor."
+    "name": "Astarion"
   },
   {
     "id": 3,
-    "name": "Lae'zel",
-    "description": "A fierce Githyanki warrior driven by discipline and strength."
+    "name": "Lae'zel"
   },
   {
     "id": 4,
-    "name": "Gale",
-    "description": "A powerful wizard with a love for magic and a dangerous secret."
+    "name": "Gale"
   },
   {
     "id": 5,
-    "name": "Karlach",
-    "description": "A passionate tiefling warrior with a fiery heart and boundless energy."
+    "name": "Karlach"
   },
   {
     "id": 6,
-    "name": "Wyll",
-    "description": "A heroic warlock known as the Blade of Frontiers, seeking redemption."
+    "name": "Wyll"
   },
   {
     "id": 7,
-    "name": "Halsin",
-    "description": "A wise druid connected deeply to nature and balance."
+    "name": "Halsin"
   },
   {
     "id": 8,
-    "name": "Minthara",
-    "description": "A ruthless drow paladin with a commanding presence."
+    "name": "Minthara"
   }
 ]

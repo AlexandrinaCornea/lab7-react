@@ -1,0 +1,40 @@
+.review {
+  display: grid;
+  gap: 18px;
+}
+
+.title {
+  margin: 0;
+  color: #fff0cf;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.card {
+  padding: 18px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(211, 162, 82, 0.18);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  color: #f0c576;
+}
+
+.line {
+  margin: 0 0 8px;
+  color: #f7ecdb;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

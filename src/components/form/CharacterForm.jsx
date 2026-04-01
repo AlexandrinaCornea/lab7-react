@@ -9,6 +9,7 @@ import { stepFields } from "@utils/stepFields";
 import { Stepper } from "../stepper/Stepper";
 import { CharacterPreview } from "../preview/CharacterPreview";
 import { ReviewStep } from "../steps/ReviewStep";
+import style from "./style.module.css";
 
 export const CharacterForm = () => {
   const { currentStep, errors, submitted } = useCharacterState();
@@ -46,38 +47,55 @@ export const CharacterForm = () => {
   }
 
   return (
-    <div>
+    <div className={style.layout}>
       {submitted ? (
-        <div>
+        <div className={style.successBox}>
+          <p className={style.eyebrow}>Adventure Complete</p>
           <h2>Character Submitted Successfully</h2>
-          <p>Your Baldur&apos;s Gate 3 hero is ready for adventure.</p>
-          <button type="button" onClick={() => dispatch({ type: "RESET" })}>
+          <p>Your Baldur's Gate 3 hero is ready for adventure.</p>
+          <button
+            className={style.primaryButton}
+            type="button"
+            onClick={() => dispatch({ type: "RESET" })}
+          >
             Create Another Character
           </button>
         </div>
       ) : (
         <>
-          <Stepper />
-          {renderStep()}
-          <div>
-            <button
-              type="button"
-              onClick={handleBack}
-              disabled={currentStep === 0}
-            >
-              Back
-            </button>
-            {currentStep === 3 ? (
-              <button type="button" onClick={handleSubmit}>
-                Submit
+          <div className={style.formColumn}>
+            <div className={style.heroCard}>
+              <p className={style.eyebrow}>Baldur's Gate 3 Builder</p>
+              <h1 className={style.title}>Forge Your Tadpole Survivor</h1>
+              <p className={style.subtitle}>
+                Build a multi-step hero sheet with identity, combat style, and
+                story choices.
+              </p>
+            </div>
+            <Stepper />
+            <div className={style.stepCard}>{renderStep()}</div>
+            <div className={style.actions}>
+              <button
+                className={style.secondaryButton}
+                onClick={handleBack}
+                disabled={currentStep === 0}
+              >
+                Back
               </button>
-            ) : (
-              <button type="button" onClick={handleNext}>
-                Next
-              </button>
-            )}
+              {currentStep === 3 ? (
+                <button className={style.primaryButton} onClick={handleSubmit}>
+                  Submit
+                </button>
+              ) : (
+                <button className={style.primaryButton} onClick={handleNext}>
+                  Next
+                </button>
+              )}
+            </div>
           </div>
-          <CharacterPreview />
+          <div className={style.previewColumn}>
+            <CharacterPreview />
+          </div>
         </>
       )}
     </div>

@@ -1,1 +1,5 @@
-["Explorer", "Balanced", "Tactician"]
+[
+  { "id": 0, "value": "Explorer" },
+  { "id": 1, "value": "Balanced" },
+  { "id": 2, "value": "Tactician" }
+]

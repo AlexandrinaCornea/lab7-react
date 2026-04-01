@@ -107,8 +107,8 @@ export const StoryStep = () => {
       >
         <option value="">Select romance interest</option>
         {romanceInterests.map((romanceInterest) => (
-          <option key={romanceInterest} value={romanceInterest}>
-            {romanceInterest}
+          <option key={romanceInterest.id} value={romanceInterest.name}>
+            {romanceInterest.name}
           </option>
         ))}
       </select>
